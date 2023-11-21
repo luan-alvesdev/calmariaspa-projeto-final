@@ -23,3 +23,9 @@
 .rodape .rodape__nav--lista .rodape__nav--lista--tiktok::before {
     content: url("/assets/Tiktok.svg");
 }
+
+
+a:focus, button:focus {
+    outline: 3px solid var(--azul-escuro);
+    transition: outline .3s;
+  }
